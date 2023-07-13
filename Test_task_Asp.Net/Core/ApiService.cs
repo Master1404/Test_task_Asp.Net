@@ -4,7 +4,6 @@ namespace Test_task_Asp.Net.Core
 {
     public class ApiService : IApiService
     {
-
         private readonly HttpClient httpClient;
 
         public ApiService(HttpClient httpClient)
